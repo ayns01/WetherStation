@@ -17,7 +17,13 @@ public class WeatherStation extends Observable implements Observer {
         }else if(event.getSource() instanceof HumiditySensor) {
             averageHumidity = (averageHumidity + event.getValue()) / 2;
         }else if (event.getSource() instanceof PressureSensor) {
-
+            averagePressure = (averagePressure + event.getValue()) / 2;
         }
+
+        this.setChanged();
+        String message = "average Temperature: " + averageTemperature +
+                "\naverage Humidity: " + averageHumidity +
+                "\naverage Pressure: " + averagePressure;
+        notifyObservers(new Report(message));
     }
 }

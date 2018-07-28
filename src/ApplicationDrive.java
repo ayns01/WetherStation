@@ -16,13 +16,13 @@ public class ApplicationDrive {
 
         Database<DataPoint> database = new Database<DataPoint>();
         database.push(new DataPoint(DataCategory.TEMPERATURE,11));
-        database.push(new DataPoint(DataCategory.TEMPERATURE, 12));
-        database.push(new DataPoint(DataCategory.TEMPERATURE, 13));
         database.push(new DataPoint(DataCategory.HUMIDITY, 14));
-        database.push(new DataPoint(DataCategory.HUMIDITY, 15));
-        database.push(new DataPoint(DataCategory.HUMIDITY, 16));
         database.push(new DataPoint(DataCategory.PRESSURE, 17));
+        database.push(new DataPoint(DataCategory.TEMPERATURE, 12));
+        database.push(new DataPoint(DataCategory.HUMIDITY, 15));
         database.push(new DataPoint(DataCategory.PRESSURE, 18));
+        database.push(new DataPoint(DataCategory.TEMPERATURE, 13));
+        database.push(new DataPoint(DataCategory.HUMIDITY, 16));
         database.push(new DataPoint(DataCategory.PRESSURE, 19));
         database.push(new DataPoint(DataCategory.PRESSURE, 20));
 

@@ -5,7 +5,7 @@ public class DataPoint {
 
     public DataPoint(DataCategory dataCategory, int newValue) {
         this.dataCategory = dataCategory;
-        newValue = newValue;
+        this.newValue = newValue;
     }
 
     public DataCategory getDataCategory() {

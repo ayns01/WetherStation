@@ -10,8 +10,8 @@ public class TemperatureSensor extends Observable {
 
     public void setTemperature(int temperature) {
         this.temperature = temperature;
-        this.setChanged(); // it tells about changing
-        notifyObservers(new TemperatureSensorEvent(this, temperature)); // it tells Observer
+        this.setChanged(); // this tells Observer that this tempereture changed.
+        notifyObservers(new TemperatureSensorEvent(this, temperature)); // it tells Observer context of changing
     }
 }
 
