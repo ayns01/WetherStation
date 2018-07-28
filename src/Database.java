@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Database<DataPoint> implements Iterable<DataPoint> {
-
     private ArrayList<DataPoint> dataPoints = new ArrayList<DataPoint>();
 
     public void push(DataPoint dataPoint) {

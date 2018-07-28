@@ -1,7 +1,6 @@
 import java.util.Observable;
 
 public class TemperatureSensor extends Observable {
-
     private int temperature;
 
     public int getTemperature() {

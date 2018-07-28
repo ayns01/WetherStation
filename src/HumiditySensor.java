@@ -1,7 +1,6 @@
 import java.util.Observable;
 
 public class HumiditySensor extends Observable {
-
     private int humidity;
 
     public int getHumidity() {

@@ -1,5 +1,4 @@
 public class SensorEvent {
-
     private final Object source;
     private int value;
 

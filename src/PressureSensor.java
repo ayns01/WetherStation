@@ -1,7 +1,6 @@
 import java.util.Observable;
 
 public class PressureSensor extends Observable {
-
     private int Pressure;
 
     public int getPressure() {

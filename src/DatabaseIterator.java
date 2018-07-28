@@ -1,7 +1,6 @@
 import java.util.Iterator;
 
 public class DatabaseIterator<DataPoint> implements Iterator<DataPoint> {
-
     private Database<DataPoint> database;
     private int index;
 

@@ -1,5 +1,4 @@
 public class DataPoint {
-
     private DataCategory dataCategory;
     private int newValue;
 
